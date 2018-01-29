@@ -1,0 +1,29 @@
+{
+  "name": "glsl-waves",
+  "version": "0.0.1",
+  "description": "Generate waves in 1d or 2d",
+  "main": "sine1.glsl",
+  "license": "MIT",
+  "author": "Gustavo Spredemann <gspredemann@gmail.com>",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spredemann/glsl-waves.git"
+  },
+  "keywords": [
+    "wave",
+    "waves",
+    "sine",
+    "square",
+    "triangle",
+    "saw",
+    "shader",
+    "webgl",
+    "glsl"
+  ],
+  "homepage": "https://github.com/spredemann/glsl-waves",
+  "bugs": {
+    "url": "https://github.com/spredemann/glsl-waves/issues"
+  }
+}
