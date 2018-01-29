@@ -33,7 +33,8 @@ void main() {
 }
 ```
 
-SmoothSquare has an optional additional smoothness paramenter:
+
+SmoothSquare has an additional smoothness paramenter:
 
 **1d:**
 `float smoothSquare1(float t, float amplitude, float frequency, float smoothness, float phase)`
