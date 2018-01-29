@@ -1,8 +1,8 @@
 # glsl-waves
 
-Generate waves in 1D or 2D. Great for video synthesis type of visuals where you combine functions and use them for color generation and displacement.
+Generate waves in 1d or 2d. Great for video synthesis type of visuals where you combine functions and use them for color generation and displacement.
 
-## Usage
+## Install
 Install the package:
 
 ```
@@ -15,13 +15,13 @@ or
 yarn add glsl-waves 
 ```
 
-Examples:
+## Usage
 
-1d waves:
-### `float [waveName]1(float t, float amplitude, float frequency, float phase)`
+**1d waves:**
+`float [waveName]1(float t, float amplitude, float frequency, float phase)`
 
-2d waves:
-### `vec2 [waveName]2(vec2 uv, float t, float amplitude, float frequency)`
+**2d waves:**
+`vec2 [waveName]2(vec2 uv, float t, float amplitude, float frequency)`
 
 ``` glsl
 // Use any of the following:
@@ -35,11 +35,11 @@ void main() {
 
 SmoothSquare has an optional additional smoothness paramenter:
 
-1d:
-### `float smoothSquare1(float t, float amplitude, float frequency, float smoothness, float phase)`
+**1d:**
+`float smoothSquare1(float t, float amplitude, float frequency, float smoothness, float phase)`
 
-2d:
-### `vec2 smoothSquare2(vec2 uv, float t, float amplitude, float frequency, float smoothness)`
+**2d:**
+`vec2 smoothSquare2(vec2 uv, float t, float amplitude, float frequency, float smoothness)`
 
 ``` glsl
 #pragma glslify: smoothSquare1 = require(glsl-waves/smoothSquare1)
